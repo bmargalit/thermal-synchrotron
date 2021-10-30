@@ -19,7 +19,7 @@ This file can be imported as a module and contains the following functions:
     * gamma_m_fun - eq. (6), MQ21
     * f_fun - eq. (5), MQ21
     * g_fun - eq. (8), MQ21
-    * I_of_x - eq. (12), MQ21
+    * I_of_x - eq. (13), MQ21
     * C_j - eq. (15), MQ21
     * C_alpha - eq. (17), MQ21
     * low_freq_jpl_correction - low-frequency power-law emissivity
@@ -27,7 +27,7 @@ This file can be imported as a module and contains the following functions:
     * jnu_pl - power-law emissivity; eqs. (14,19), MQ21
     * alphanu_pl - power-law absorption coefficient; eqs. (16,19), MQ21
     * jnu_th - thermal emissivity; eqs. (10,20), MQ21
-    * alphanu_th - thermal absorption coefficient; eqs. (13,20), MQ21
+    * alphanu_th - thermal absorption coefficient; eqs. (12,20), MQ21
     * tau_nu - total optical depth
     * nu_Theta - thermal frequency; eq. (11), MQ21
     * Lnu_fun - eq. (21), MQ21
@@ -162,7 +162,7 @@ def I_of_x(x):
     Returns
     _______
     I : float
-        Spectral energy distribution function (eq. 12, MQ21)
+        Spectral energy distribution function (eq. 13, MQ21)
     '''
 
     return 4.0505*x**(-1.0/6.0)*( 1.0 + 0.40*x**(-0.25) + 0.5316*x**(-0.5) )*np.exp(-1.8899*x**(1.0/3.0))
@@ -371,7 +371,7 @@ def jnu_th(x,n,B,Theta,z_cool=np.inf):
     return val
 
 def alphanu_th(x,n,B,Theta,z_cool=np.inf):
-    '''Synchrotron absorption coeff of thermal electrons (eqs. 13,20; MQ21)
+    '''Synchrotron absorption coeff of thermal electrons (eqs. 12,20; MQ21)
 
     Parameters
     __________
