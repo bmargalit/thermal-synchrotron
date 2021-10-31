@@ -11,7 +11,7 @@ This code accompanies the paper "Thermal Electrons in Mildly-relativistic Synchr
 - Script `test.py` illustrates example use cases of `thermalsyn.py`
 
 # Basic Usage
-The primary goal of this code is to compute the specific luminosity from a shock. This can be calculated using the function `thermalsyn.Lnu_shock` and specifying the shock radius, velocity, and upstream density (as well as microphysical parameters):
+The primary goal of this code is to compute the specific luminosity from a shock. This can be calculated using the function `thermalsyn.Lnu_shock()` and specifying the shock radius, velocity, and upstream density (as well as microphysical parameters), for example:
 ```python
 import numpy as np
 import thermalsyn
@@ -25,4 +25,4 @@ v = 0.3*c
 
 Lnu = thermalsyn.Lnu_shock(nu,n,r,v,epsilon_T=1.0,epsilon_B=0.1,delta=0.01,p=3.0)
 ```
-For more general settings applicable also outside the scope of shock-powered transients, the function `thermalsyn.Lnu_fun` can be called. This calculates emission as a direct function of the emitting plasma properties: electron density, region size, magnetic field, and source age.
+For more general settings applicable also outside the scope of shock-powered transients, the function `thermalsyn.Lnu_fun()` can be called. This calculates emission as a direct function of the emitting plasma properties: electron density, region size, electron temperature, magnetic field, and source age.
