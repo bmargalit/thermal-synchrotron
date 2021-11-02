@@ -9,7 +9,8 @@ second example a few light-curves (at different frequencies) are calculated
 for a shock that expands as R ~ t^m within a wind density profile (n ~ R^{-2}).
 
 See thermalsyn.py for more detailed documentation.
-Please cite Margalit & Quataert (2021) if used for scientific purposes.
+Please cite Margalit & Quataert (2021) if used for scientific purposes:
+https://ui.adsabs.harvard.edu/abs/2021arXiv211100012M/abstract
 
 '''
 

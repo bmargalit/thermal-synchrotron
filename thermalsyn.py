@@ -11,7 +11,8 @@ distribution can be calculated by specifying the electron density, emitting
 region size, electron temperature, magnetic field, and system age, using the
 function Lnu_fun().
 
-Please cite Margalit & Quataert (2021) if used for scientific purposes.
+Please cite Margalit & Quataert (2021) if used for scientific purposes:
+https://ui.adsabs.harvard.edu/abs/2021arXiv211100012M/abstract
 
 This file can be imported as a module and contains the following functions:
     * a_fun - eq. (1), MQ21
