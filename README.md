@@ -1,5 +1,5 @@
 # `Thermal + Non-thermal' Synchrotron Emission Model
-This code accompanies the paper "Thermal Electrons in Mildly-relativistic Synchrotron Blast-waves" (Margalit &amp; Quataert 2021; MQ21). It implements the `thermal + non-thermal' model presented in MQ21, allowing calculation of the emergent synchrotron emission from an electron population comprised of both a thermal (Maxwellian) component and a non-thermal (power-law) distribution, including the effects of synchrotron self-absorption and synchrotron cooling.
+This code accompanies the paper "Thermal Electrons in Mildly-relativistic Synchrotron Blast-waves" ([Margalit &amp; Quataert 2021](https://ui.adsabs.harvard.edu/abs/2021arXiv211100012M/abstract); MQ21). It implements the `thermal + non-thermal' model presented in MQ21, allowing calculation of the emergent synchrotron emission from an electron population comprised of both a thermal (Maxwellian) component and a non-thermal (power-law) distribution, including the effects of synchrotron self-absorption and synchrotron cooling.
 
 # Requirements
 - numpy
